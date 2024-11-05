@@ -1,12 +1,8 @@
 import React from 'react'
-import Nav from './components/nav'
-
-import "./globals.css"
+import App from "./App"
 
 export default function Home() {
     return (
-       <div>
-          <Nav />
-       </div>
+      <App />
     )
 }
